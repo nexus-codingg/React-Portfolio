@@ -1,0 +1,87 @@
+/* main CSS for website */
+
+/* background color to whole page */
+body {
+  background-image: url("../Images/Portfolio/Smoke\ bgd\ image.jpg"); /* Source: https://unsplash.com/photos/ebno_NwaOns} */
+  height: 500px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+/* Styling for "Keiana Hanson" */
+#NameBar {
+  padding-top: 10px;
+  background-color: lightsteelblue;
+  font-family: 'Galada', cursive;
+  text-align: center;
+}
+/* Stylings for container holding "About Me" text and profile picture */
+#main-row {
+  background-color: lightgrey;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+/* Profile Picture Styling */
+#profilePicture {
+  padding: 5px;
+  height: 500px;
+  width: 500px;
+}
+/* "Content" Container styling */
+#bodyContent {
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  background-color: rgb(212, 225, 235);
+  font-family: 'Playfair Display', serif;
+}
+/* styling for border under "About Me" // how to make line static? 
+when resizing page, boarder goes the length of container */
+#border {
+  border-bottom: solid black;
+  border-width: 0px 0px 2px 0px; /* x top, 0px right, 4px bottom and 0px left */
+  margin-bottom: 20px; 
+}
+
+/* Review to get more spacing between text and profile picture */
+#styleText {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* unvisited link */
+a:link {
+  color: #7AD7DF;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+/* Footer Styling */
+#FooterStyle {
+      background-color: lightslategray;
+      padding-top: 30px;
+      padding-bottom: 80px;
+      color: honeydew;
+      height: 80px;
+      text-align: center;
+      margin-top: 100px;
+      margin-bottom: 0px;
+      width:100%;
+      font-family: 'Galada', cursive;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
