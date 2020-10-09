@@ -2,7 +2,7 @@
 
 /* background color to whole page */
 body {
-  background-image: url("../Images/Portfolio/Smoke\ bgd\ image.jpg"); /* Source: https://unsplash.com/photos/ebno_NwaOns} */
+  background-image: url("./pic/Smoke\ bgd\ image.jpg"); /* Source: https://unsplash.com/photos/ebno_NwaOns} */
   height: 500px; 
   background-position: center;
   background-repeat: no-repeat;
@@ -16,6 +16,7 @@ body {
   font-family: 'Galada', cursive;
   text-align: center;
 }
+
 /* Stylings for container holding "About Me" text and profile picture */
 #main-row {
   background-color: lightgrey;
@@ -24,7 +25,6 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
-
 
 /* Profile Picture Styling */
 #profilePicture {
@@ -64,6 +64,9 @@ a:link {
 a:hover {
   color: black;
 }
+
+/* to get rid of weird li markers */
+
 /* Footer Styling */
 #FooterStyle {
       background-color: lightslategray;

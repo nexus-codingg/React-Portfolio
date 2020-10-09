@@ -1,0 +1,76 @@
+/* title card styling */
+#title-div {
+    background: #84E4DE;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+}
+
+#cardbody-Style {
+    background: #B1F3EF;
+}
+
+#portBody {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgb(212, 225, 235);
+    font-family: 'Playfair Display', serif;
+}
+
+/* styling for the block images */
+#picStyle {
+    padding: 20px;
+    height: 250px;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#link-icons {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#port-text,
+#socialIcon {
+    color: white;
+}
+
+#port-text:hover,
+#socialIcon {
+    color: black;
+}
+
+#port-text:visited,
+#socialIcon {
+    color: #5D15EE;
+}
+
+/* FontAwesome Styling on Portfolio HTML*/
+#socialIcon {
+    display: inline-block;
+}
+
+/* h2 Center Text for Portfolio HTML */
+h2 {
+    padding: 20px;
+    text-align: center;
+}
+
+/* */
+@media screen and (min-width: 400px) {
+    #picStyle, .card-body {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    #picStyle {
+        height: 500px;
+        width: 500px;
+    }
+}
