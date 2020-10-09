@@ -65,8 +65,10 @@ a:hover {
   color: black;
 }
 
-/* to get rid of weird li markers */
-
+/* to remove weird li markers */
+ul {
+  list-style-type: none;
+}
 /* Footer Styling */
 #FooterStyle {
       background-color: lightslategray;
