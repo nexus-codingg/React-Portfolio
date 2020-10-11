@@ -2,7 +2,7 @@
 
 /* background color to whole page */
 body {
-  background-image: url("./pic/Smoke\ bgd\ image.jpg"); /* Source: https://unsplash.com/photos/ebno_NwaOns} */
+  background-image: url("../src/assets/images/Smoke\ bgd\ image.jpg"); /* Source: https://unsplash.com/photos/ebno_NwaOns} */
   height: 500px; 
   background-position: center;
   background-repeat: no-repeat;

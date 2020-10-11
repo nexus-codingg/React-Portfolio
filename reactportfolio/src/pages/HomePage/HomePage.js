@@ -4,7 +4,6 @@ import Fade from 'react-reveal/Fade';
 // make sure to import the full file path and the exact file name
 import AboutMeContent from "../../components/AboutMeContent/AboutMeContent";
 
-
 function HomePage() {
     return (
         <Fade>

@@ -1,5 +1,6 @@
 import React from "react";
-import kikiImage from '../../pic/KikiPic.jpg';
+import kikiImage from '../../assets/images/KikiPic.jpg';
+
 
 function ProfilePic() {
     return (
