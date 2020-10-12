@@ -15,7 +15,7 @@ function App() {
   return (
     <Router>
         <NavBar />
-        <Route exact path="/React-Portfolio" component={HomePage} />
+        <Route exact path="/React-Portfolio/" component={HomePage} />
         <Route exact path="/Portfolio" component={Portfolio} />
         <Route exact path="/Contact" component={Contact} />
       <Footer />
