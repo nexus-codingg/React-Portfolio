@@ -4,6 +4,8 @@
 
 This version of my portfolio was re-created using React! => [Create React App](https://github.com/facebook/create-react-app).
 
+View my page here: https://microxgleek94.github.io/React-Portfolio/
+
 ## Available Scripts
 
 In the project directory, you can run:
