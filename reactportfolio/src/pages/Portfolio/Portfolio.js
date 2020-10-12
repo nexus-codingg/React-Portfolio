@@ -1,6 +1,8 @@
 import React from "react";
 import Fade from 'react-reveal/Fade';
-import ProjectContainer from "../../components/ProjectContainer/ProjectContainer";
+import ProjectContainer1 from "../../components/ProjectContainer/ProjectContainer1";
+import ProjectContainer2 from "../../components/ProjectContainer/ProjectContainer2";
+import ProjectContainer3 from "../../components/ProjectContainer/ProjectContainer3";
 
 function Portfolio() {
     return (
@@ -11,7 +13,13 @@ function Portfolio() {
                         <h3>Portfolio</h3>
                         <div id="border" width="400px"></div>
                         <div className="row">
-                        <ProjectContainer />
+                            <ProjectContainer1 />
+                            <div className="row">
+                                <ProjectContainer2 />
+                            </div>
+                            <div className="row">
+                                <ProjectContainer3 />
+                            </div>
                         </div>
                     </div>
                 </div>

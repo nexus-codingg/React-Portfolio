@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // when importing files that don't have the default "index.js", 
 // make sure to import the full file path and the exact file name 
 import Footer from "./components/Footer/Footer";
