@@ -17,7 +17,7 @@ function NavBarAndLinks() {
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                         <ul class="navbar ml-auto">
                             <li className="nav-item">
-                                <Link to="/Home" className={location.pathname === "/React-Portfolio/" ? "nav-link active" : "nav-link"}>Home</Link>
+                                <Link to="/Home" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>Home</Link>
                             </li>
                             <li className="nav-item">
                                 <Link to="/portfolio" className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>Portfolio</Link>
