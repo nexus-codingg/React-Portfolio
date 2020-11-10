@@ -29,8 +29,14 @@ body {
 /* Profile Picture Styling */
 #profilePicture {
   padding: 5px;
-  height: 500px;
-  width: 500px;
+  height: 50%;
+  width: 50%;
+}
+
+#AboutPic {
+  padding: 5px;
+  height: 50%;
+  width: 50%;
 }
 /* "Content" Container styling */
 #bodyContent {

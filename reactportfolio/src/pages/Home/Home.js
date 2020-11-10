@@ -2,14 +2,14 @@ import React from "react";
 import Fade from 'react-reveal/Fade';
 // when importing files that don't have the default "index.js", 
 // make sure to import the full file path and the exact file name
-import AboutMeContent from "../../components/AboutMeContent/AboutMeContent";
+import HomeContent from "../../components/HomeContent/HomeContent";
 
-function HomePage() {
+function Home() {
     return (
         <Fade>
-            <AboutMeContent />
+            <HomeContent />
         </Fade>
     )
 };
 
-export default HomePage;
+export default Home;

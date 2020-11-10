@@ -5,7 +5,8 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Footer from "./components/Footer/Footer";
 import Portfolio from "./pages/Portfolio/Portfolio";
 import Contact from "./pages/Contact/Contact";
-import HomePage from './pages/HomePage/HomePage';
+import About from './pages/About/About';
+import Home from "./pages/Home/Home"
 import NavBar from "./components/NavBarAndLinks/NavBarAndLinks";
 import "./App.css";
 
@@ -15,9 +16,9 @@ function App() {
   return (
     <Router>
         <NavBar />
-        <Route exact path= "/React-Portfolio" component={HomePage} />
-        <Route exact path= "/Home" component={HomePage} />
-        <Route exact path= "/" component={HomePage} />
+        <Route exact path= "/React-Portfolio" component={Home} />
+        <Route exact path= "/About" component={About} />
+        <Route exact path= "/" component={Home} />
         <Route exact path="/Portfolio" component={Portfolio} />
         <Route exact path="/Contact" component={Contact} />
       <Footer />
