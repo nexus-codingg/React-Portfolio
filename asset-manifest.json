@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.b71d37dc.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.ebae2234.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.ebae2234.chunk.js.map",
+    "main.css": "/React-Portfolio/static/css/main.52c38afa.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.92a6d934.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.92a6d934.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.27e0f504.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.27e0f504.js.map",
-    "static/js/2.e3151888.chunk.js": "/React-Portfolio/static/js/2.e3151888.chunk.js",
-    "static/js/2.e3151888.chunk.js.map": "/React-Portfolio/static/js/2.e3151888.chunk.js.map",
+    "static/js/2.54c25414.chunk.js": "/React-Portfolio/static/js/2.54c25414.chunk.js",
+    "static/js/2.54c25414.chunk.js.map": "/React-Portfolio/static/js/2.54c25414.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
-    "precache-manifest.6621335e0ad74573ccbbd98c2524fced.js": "/React-Portfolio/precache-manifest.6621335e0ad74573ccbbd98c2524fced.js",
+    "precache-manifest.e580bf02005e86a2bd4615b9449efa09.js": "/React-Portfolio/precache-manifest.e580bf02005e86a2bd4615b9449efa09.js",
     "service-worker.js": "/React-Portfolio/service-worker.js",
-    "static/css/main.b71d37dc.chunk.css.map": "/React-Portfolio/static/css/main.b71d37dc.chunk.css.map",
-    "static/js/2.e3151888.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.e3151888.chunk.js.LICENSE.txt",
+    "static/css/main.52c38afa.chunk.css.map": "/React-Portfolio/static/css/main.52c38afa.chunk.css.map",
+    "static/js/2.54c25414.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.54c25414.chunk.js.LICENSE.txt",
+    "static/media/Black_Girl_With_Laptop.jpg": "/React-Portfolio/static/media/Black_Girl_With_Laptop.605c2aad.jpg",
     "static/media/CLIReadMe.gif": "/React-Portfolio/static/media/CLIReadMe.3fd8d3c6.gif",
     "static/media/KikiPic.jpg": "/React-Portfolio/static/media/KikiPic.922bab0e.jpg",
     "static/media/Search_Destroy App pic.jpeg": "/React-Portfolio/static/media/Search_Destroy App pic.f34374fc.jpeg",
@@ -23,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.27e0f504.js",
-    "static/js/2.e3151888.chunk.js",
-    "static/css/main.b71d37dc.chunk.css",
-    "static/js/main.ebae2234.chunk.js"
+    "static/js/2.54c25414.chunk.js",
+    "static/css/main.52c38afa.chunk.css",
+    "static/js/main.92a6d934.chunk.js"
   ]
 }
