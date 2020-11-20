@@ -10,7 +10,7 @@ function ProjectContainer1() {
     return (
         projectID.map((project, index) =>
             <div key={project.id} className="col">
-                <img src={project.image} className="card-img-top" id="picStyle" />
+                <img src={project.image} className="card-img-top" id="picStyle" alt={project.alt} />
                 <div className="card text-center">
                     <div className="card-body" id="cardbody-Style">
                         <div className="card-header" id="title-div">
