@@ -10,7 +10,7 @@ function ProjectContainer2() {
     return (
         projectID.map((project, index) =>
             <div key={project.id} className="col">
-                <img src={project.image} className="card-img-top" id="picStyle" />
+                <img src={project.image} className="card-img-top" id="picStyle" alt={project.alt} />
                 <div className="card text-center">
                     <div className="card-body" id="cardbody-Style">
                         <div className="card-header" id="title-div">
@@ -19,9 +19,14 @@ function ProjectContainer2() {
                             </span>
                         </div>
                         <p> {project.description}</p>
+                        <a href={project.deployed} target="_blank" rel="noopener noreferrer" id="port-text">
+                            Check out the deployed app here!
+                        </a>
+                        <br></br>
+                        <br></br>
                         <a href={project.github} target="_blank" rel="noopener noreferrer" id="port-text">
                             Check out the repo for this assignment here on Github!
-                               </a>
+                        </a>
                     </div>
                 </div>
             </div>

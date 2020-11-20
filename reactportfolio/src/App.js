@@ -1,5 +1,6 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BreakpointProvider } from 'react-socks';
+import { BrowserRouter as Router, Route} from "react-router-dom";
 // when importing files that don't have the default "index.js", 
 // make sure to import the full file path and the exact file name 
 import Footer from "./components/Footer/Footer";
@@ -14,6 +15,7 @@ import "./App.css";
 function App() {
 
   return (
+    <BreakpointProvider>
     <Router>
         <NavBar />
         <Route exact path= "/React-Portfolio" component={Home} />
@@ -22,7 +24,8 @@ function App() {
         <Route exact path="/Portfolio" component={Portfolio} />
         <Route exact path="/Contact" component={Contact} />
       <Footer />
-    </Router >
+    </Router>
+    </BreakpointProvider>
   )
 }
 
