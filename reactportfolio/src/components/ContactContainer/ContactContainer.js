@@ -8,7 +8,6 @@ function ContactContainer() {
             <div>
                 <h2> Email Me Here!</h2>
                 <a href="mailto:kiki_hanson@aol.com" target="_blank" rel="noopener noreferrer"><i className="far fa-envelope fa-7x" id="socialIcon"></i></a>
-                <h2><a href="mailto:kiki_hanson@aol.com" id="emailStyle">kiki_hanson@aol.com</a></h2>
             </div>
             <div className="row">
                 <div className="col">

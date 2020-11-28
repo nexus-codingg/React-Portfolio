@@ -14,12 +14,12 @@ function Portfolio() {
                         <div id="border" width="400px"></div>
                         <div className="row">
                             <ProjectContainer1 />
-                            <div className="row">
-                                <ProjectContainer2 />
-                            </div>
-                            <div className="row">
-                                <ProjectContainer3 />
-                            </div>
+                        </div>
+                        <div className="row">
+                            <ProjectContainer2 />
+                        </div>
+                        <div className="row">
+                            <ProjectContainer3 />
                         </div>
                     </div>
                 </div>
