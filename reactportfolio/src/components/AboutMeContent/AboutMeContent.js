@@ -11,8 +11,7 @@ function AboutMeContent() {
                     <ProfilePic />
                     <div id="styleText">
                         <p> Hello everyone! My name is Keiana Hanson, but a lot of people just call me
-                        "Kiki." I am 26 years old, live on Long Island in New York and I am a junior
-                        coder/developer.
+                        "Kiki." 
                         In 2016, I graduated from Binghamton University with my Bachelor of Arts with a major in
                         Creative Writing and a minor in Cinema. As a child, I’ve always been creative – from
                         writing “fanfictions” about my favorite characters from movies and shows, to creating
@@ -28,6 +27,8 @@ function AboutMeContent() {
                         <p> This post-grad journey has been confusing, and I’ve had many moments where I
                         felt lost, but I am forever grateful for the journey nonetheless, as it has led me to
                         this point in my life, and I’m excited to see where I end up. </p>
+                            <p> Since graduating from my bootcamp in 2020, I've fallen in love with being a Developer Support Engineers for start-ups 
+                            and venturing out to tech conferences all over where I can meet new people in the industry. </p>
 
                     </div>
 
